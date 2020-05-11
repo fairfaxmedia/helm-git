@@ -4,8 +4,7 @@
 
 set -e
 
-# Make sure HELM_BIN is set (normally by the helm command)
-HELM_BIN="${HELM_BIN:-helm}"
+HELM_BIN="helm"
 
 readonly bin_name="helm-git"
 readonly allowed_protocols="https http file ssh"
